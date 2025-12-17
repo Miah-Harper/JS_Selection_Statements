@@ -3,8 +3,8 @@ console.log(
   "Follow the steps in the README.md file to complete the exercises:\n==========\n"
 );
 
-const num = 3;
-const userInput = prompt("Please input a number");
+
+const userInput = Number(prompt("Please input a number"));
 
 if(userInput < 3){
   console.log("answer is too low")
@@ -97,6 +97,7 @@ switch(colorId){
       break;
       case "RD":
         color = "red";
+        break;
         case "PU":
           color = "purple";
           break;
